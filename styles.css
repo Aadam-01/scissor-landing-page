@@ -56,6 +56,8 @@ body {
 }
 
 
+                                        /* Navigation section*/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -111,44 +113,60 @@ body {
 }
 
 
+                                        /* CSS MAIN */
 
-/* 
-.header {
-    display: flex;
-    justify-content: space-between;
+
+.main {
+  margin-top: 108px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 948px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
 }
 
-.header div {
-    align-self: center;
+
+                      
+.main h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 96px;
+  margin-bottom: 0;
 }
 
-.header-div button{
-    border-style: none;
-    border-radius: 100px;
-    margin-left: 20px;
-    background-color: #0065FE;
-    color: white;
-
+.main-img {
+  position: relative;
+  top: -23px;
 }
 
-.hero-section {
-    padding: 12px 145.09px;
+.main span{
+  color: #0065FE;
 }
 
-.navigation-top ul {
-    display: flex;
-    gap: 105px;
+.main p {
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  width: 781px;
 }
 
-.navigation-top {
-    align-items: center;
+.main div {
+  margin-top: 32px;
 }
 
-.navigation-top ul li:first-child a{
-    color: #0065FE;
+.sign-up{
+  background-color: #0065FE;
+  color: white;
+  padding: 16px 42px;
+  border-style: none;
+  border-radius: 50px;
+  margin-right: 56px;
 }
 
-.scissor-logo{
-    height: 40px;
-    align-self: flex-end;
-} */
+.main a {
+  color: #0065FE;
+}
