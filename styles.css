@@ -1,0 +1,154 @@
+                                       
+
+a {
+    text-decoration: none;
+}
+
+
+                                        /* Font family settings */
+
+/* REGULAR WEIGHT */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('assets/fonts/Gilroy-Regular.woff2') format('woff2');
+  font-weight: 400; /* 400 = Regular */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MEDIUM WEIGHT */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/assets/fonts/Gilroy-Medium.woff2') format('woff2');
+  font-weight: 500; /* 500 = Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* BOLD WEIGHT */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/assets/fonts/Gilroy-Bold.woff2') format('woff2');
+  font-weight: 700; /* 700 = Bold */
+  font-style: normal;
+  font-display: swap;
+}
+  
+
+                                        /* font applications */
+
+
+/* Set the default font for the whole website to Regular */
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500; 
+  color: #141414;
+}                                        
+
+
+
+
+                                        /* Universal CSS General*/
+
+
+ li {
+    list-style: none;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-top ul{
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  gap: 45px;
+}
+
+.navigation-top img {
+  width: 18px;
+}
+
+.hero-section {
+  padding: 12px 145.09px;
+}
+
+.scissor-logo{
+    height: 40px;
+    align-self: center;
+}
+
+.header-div {
+  font-size: 16px;
+}
+
+
+.header-div button{
+    border-style: none;
+    border-radius: 100px;
+    margin-left: 20px;
+    background-color: #0065FE;
+    color: white;
+    padding: 12px 24px;
+}
+
+.navigation-top ul li:first-child a{
+    color: #0065FE;
+}
+
+.features {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.features img {
+  width: 20px;
+}
+
+
+
+/* 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header div {
+    align-self: center;
+}
+
+.header-div button{
+    border-style: none;
+    border-radius: 100px;
+    margin-left: 20px;
+    background-color: #0065FE;
+    color: white;
+
+}
+
+.hero-section {
+    padding: 12px 145.09px;
+}
+
+.navigation-top ul {
+    display: flex;
+    gap: 105px;
+}
+
+.navigation-top {
+    align-items: center;
+}
+
+.navigation-top ul li:first-child a{
+    color: #0065FE;
+}
+
+.scissor-logo{
+    height: 40px;
+    align-self: flex-end;
+} */
