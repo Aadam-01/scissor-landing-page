@@ -1,7 +1,42 @@
                                        
 
+/* Basic reset and sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Gilroy', sans-serif;
+  color: #141414;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
 }
 
 
@@ -77,6 +112,10 @@ body {
 
 .hero-section {
   padding: 12px 145.09px;
+  background:
+  radial-gradient(ellipse at 85% 10%, rgba(255, 241, 190, 0.55), transparent 48%),
+  radial-gradient(ellipse at 15% 25%, rgba(248, 225, 230, 0.55), transparent 45%),
+  #fff;
 }
 
 .scissor-logo{
@@ -146,7 +185,7 @@ body {
   color: #0065FE;
 }
 
-.main p {
+.main .personalize {
   margin-top: 0px;
   font-weight: 500;
   font-size: 18px;
@@ -154,7 +193,7 @@ body {
   width: 781px;
 }
 
-.main div {
+.main .main-sign-up-learn-more {
   margin-top: 32px;
 }
 
@@ -169,4 +208,60 @@ body {
 
 .main a {
   color: #0065FE;
+}
+
+/* seamless-link-icon Section  Css  */
+
+.seamless-link-icon-wrapper {
+  margin-top: 94px;
+  height: 290px;
+}
+
+.seamless-link-icon {
+
+  width: 768px;
+  height: 224px;
+  background: linear-gradient(90deg, #eef2f6 0%, #f8f9fa 55%, #ffffff 100%);
+  border: #0065FE 1px solid;
+  border-radius: 24px;
+  margin-left: 494px;
+  margin-right: 298px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 334px 16px 60px;
+  position: relative;
+  z-index: 2;
+}
+
+.seamless-icon{
+  width: 384px;
+}
+
+.seamless-passage {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+  left: 150px;
+  right: auto;
+}
+
+.vector-seamless {
+  position: relative;
+  left: 500px;
+  right: auto ;
+  top: -240px;
+  z-index: 1;
+}
+
+.wrapper-hero-section-last {
+  margin-top: 0;
+  width: 100%;
+}
+
+.hero-section-last {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
