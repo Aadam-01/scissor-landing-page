@@ -64,7 +64,7 @@ button {
 @font-face {
   font-family: 'Gilroy';
   src: url('/assets/fonts/Gilroy-Bold.woff2') format('woff2');
-  font-weight: 700; /* 700 = Bold */
+     /* 700 = Bold */
   font-style: normal;
   font-display: swap;
 }
@@ -264,4 +264,52 @@ body {
   width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+
+                                              /* Statistics Section */
+
+
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  /* height: 220px; */
+  padding: 60px 140px;
+  background-color: #F9FBFD;
+}
+
+.statistics-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-right: 120px;
+}   
+
+.statistics-heading-span {
+  color: #0065FE;
+}
+
+.statistics-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+}
+
+.statistics-lists li {
+  width: 143px;
+  height: 100px;
+}
+
+.statistics-lists li h3 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.statistics-lists li p{
+  margin-top: 4px;
 }
