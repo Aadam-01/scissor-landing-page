@@ -351,11 +351,11 @@ body {
    width: 395px;
    padding-left: 12px;
    border-left: 5px solid transparent;
-  border-image: linear-gradient(
-  to bottom,
-  #112232 0%,
-  rgba(77, 107, 136, 0) 100%
-) 1;
+   border-image: linear-gradient(
+   to bottom,
+   #112232 0%,
+   rgba(77, 107, 136, 0) 100%
+   ) 1;
    
 }
 
@@ -381,4 +381,148 @@ body {
 .features-group-items > article > p {
   font-size: 16px;
   line-height: 24px;
+}
+
+
+                                              /* Pricing Section */
+
+
+.pricing {
+  width: 100%;
+  height: 1073px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}                                           
+
+.a-price-perfect-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 576px;
+  text-align: center;
+  margin: 42px 0 0 0;
+}
+
+.a-price-perfect-heading {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0;
+  align-self: normal;
+  border-left: 5px solid transparent;
+  border-image: linear-gradient(
+  to bottom,
+  #112232 0%,
+  rgba(77, 107, 136, 0) 100%
+  ) 1;
+}
+
+.a-price-perfect-wrapper > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 556px;
+  margin: 8px 0;
+  align-self: self-end;
+}
+
+
+/* The cards Design */
+
+.basic-professional-teams-wrapper-container {
+  margin-top: 68px;
+}
+        
+
+.basic-professional-teams-wrapper {
+  height: 627px;
+  margin-top: 68px 176px 0 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.single-price-container {
+   height: 455px;
+   width: 374px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+article.professional {
+  height: 627px;
+}
+
+article.basic > .price-name {
+  margin:0 auto 0 89px;
+}
+
+article.professional > .price-name {
+  margin: 95px auto auto 65px;
+}
+
+article.professional > .price-to-ul-wrapper {
+  margin: auto auto 148px 65px;
+}
+
+/* article.basic > .price-to-ul-wrapper,
+article.teams > .price-to-ul-wrapper {
+  height: 320px;
+}   */
+
+.price-name{
+  font-weight: 500;
+  font-size: 24px;
+
+}
+
+
+article.teams > .price-name {
+  margin: 0 auto 0 65px;
+}
+
+/* article.professional > .price-name {
+  margin: 0 0 24px 0;
+} */
+
+
+.price-and-description {
+  margin-top: 34px;
+  margin-bottom: 16px;
+
+}
+
+.price-amount {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.price-description {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.price-features {
+  height: 216px;
+}
+
+.price-features > li {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.price-features > li > img {
+    display: inline;
+    max-width: 100%;
+    margin-right: 8px;
+    position: relative;
+    top: 2.5px;
 }
