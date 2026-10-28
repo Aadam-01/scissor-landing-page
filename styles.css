@@ -455,6 +455,25 @@ body {
 
 article.professional {
   height: 627px;
+  background-color: #1E3448;
+  border-radius: 15px;
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  width: 410px;
+}
+
+article.basic,
+article.teams {
+  border: #005AE2 0.2px solid;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+article.teams {
+  margin-left: 330px;
 }
 
 article.basic > .price-name {
@@ -469,10 +488,6 @@ article.professional > .price-to-ul-wrapper {
   margin: auto auto 148px 65px;
 }
 
-/* article.basic > .price-to-ul-wrapper,
-article.teams > .price-to-ul-wrapper {
-  height: 320px;
-}   */
 
 .price-name{
   font-weight: 500;
@@ -484,10 +499,6 @@ article.teams > .price-to-ul-wrapper {
 article.teams > .price-name {
   margin: 0 auto 0 65px;
 }
-
-/* article.professional > .price-name {
-  margin: 0 0 24px 0;
-} */
 
 
 .price-and-description {
