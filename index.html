@@ -305,26 +305,59 @@
       </div>
     </section>
     <!-- URL shortening -->
-    <section id="url-shortening">
-      <form action="">
-        <label for="paste-url"></label>
-        <input id="paste-url" type="text" placeholder="Paste URL here..." />
-        <label for="choose-domain"></label>
-        <select id="choose-domain">
-          <option value="">Choose Domain</option>
-          <option value=""></option>
-          <option value=""></option>
-        </select>
-        <label for="type-alias"></label>
-        <input id="type-alias" type="text" placeholder="type alias here" />
-        <button type="submit"></button>
-      </form>
-      <!-- Terms and services -->
-      <p></p>
+    <section class="url-shortening-wrapper-container" id="url-shortening">
+      <img
+        class="url-shortening-left-backgroung"
+        src="assets/images/url-shortening-left-backgroung.svg"
+        alt="url-shortening-left-backgroung"
+      />
+      <div class="url-shortening-wrapper">
+        <form action="">
+          <div>
+            <label for="paste-url"></label>
+            <input
+              class="paste-url"
+              id="paste-url"
+              type="text"
+              placeholder="Paste URL here..."
+            />
+          </div>
+          <div class="choose-domain-and-type-alias-here">
+            <label for="choose-domain"></label>
+            <select class="choose-domain" id="choose-domain">
+              <option value="">Choose Domain</option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+            <label for="type-alias"></label>
+            <input
+              class="type-alias"
+              id="type-alias"
+              type="text"
+              placeholder="Type alias here"
+            />
+          </div>
+          <button type="submit">
+            <span>Trim URL</span>
+            <img src="assets/icons/magic_wand.svg" alt="" />
+          </button>
+        </form>
+        <!-- Terms and services -->
+        <p>
+          By clicking TrimURL, I agree to the
+          <span>Terms of Service, Privacy Policy</span>
+          and Use of Cookies.
+        </p>
+      </div>
+      <img
+        class="url-shortening-right-backgroung"
+        src="assets/images/url-shortening-right-backgroung.svg"
+        alt="url-shortening-right-backgroung"
+      />
     </section>
     <!-- The FAQ Section -->
     <section id="faq">
-      <h2></h2>
+      <h2>FAQs</h2>
       <details>
         <summary></summary>
         <p></p>
