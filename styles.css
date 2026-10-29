@@ -670,7 +670,6 @@ article.teams > .price-name {
   background-color: #005AE2;
   color: #fff;
   border-radius: 50px;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -693,3 +692,12 @@ article.teams > .price-name {
   color: #3284FF;
 }
 
+
+
+                                              /* FAQ Section */
+  
+
+
+.faq-section-wrapper-container {
+  height: 1153px;
+}
