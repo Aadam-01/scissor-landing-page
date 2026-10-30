@@ -698,6 +698,90 @@ article.teams > .price-name {
   
 
 
+
 .faq-section-wrapper-container {
   height: 1153px;
+  position: relative;
+}
+
+.upper-faq-left-background,
+.lower-faq-right-background {
+  position: absolute;
+  display: inline;
+  z-index: 2;
+  width: 30%;
+}
+
+.upper-faq-left-background {
+  top: -45px;
+  left: 0;
+}
+
+.lower-faq-right-background {
+  right: 0;
+  bottom: 0;
+}
+
+.faqs-details-and-summary-wrapper{
+  height: 955px;
+  width: 792px;
+  margin: 43px auto 155px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+
+.faqs-details-and-summary-wrapper > h2 {
+  align-self: center;
+  font-size: 40px;
+  margin: 0;
+  padding-left: 12px;
+   border-left: 5px solid transparent;
+   border-image: linear-gradient(
+   to bottom,
+   #112232 0%,
+   rgba(77, 107, 136, 0) 100%
+   ) 1;
+}
+
+.faqs-details-and-summary {
+    height: 843px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faqs-details-and-summary > details {
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.faqs-details-and-summary > details > summary {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  list-style: none;
+  padding: 32px 0 26px 0;
+}
+
+.faqs-details-and-summary > details > p {
+  padding: 0 0 16px 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.faqs-details-and-summary > details > summary::after {
+  content: url("assets/icons/plus.svg");
+  
+  font-weight: bold;
+}
+
+
+.faqs-details-and-summary > details[open] > summary::after {
+  content: url("assets/icons/minus.svg"); 
 }
