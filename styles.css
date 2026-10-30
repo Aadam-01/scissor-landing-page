@@ -23,7 +23,11 @@ img {
   max-width: 100%;
 }
 
-a {
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #141414;
   text-decoration: none;
 }
 
@@ -784,4 +788,134 @@ article.teams > .price-name {
 
 .faqs-details-and-summary > details[open] > summary::after {
   content: url("assets/icons/minus.svg"); 
+}
+
+
+
+
+                                              /* CTA Section */
+  
+
+ 
+.cta-section {
+  height: 299px;
+  width: 100%;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  background-color: #1E3448;
+  color: white;
+  padding-top: 109px;
+  position: relative;
+}         
+
+
+.cta-left-background,
+.cta-right-background {
+  position: absolute;
+  display: inline-block;
+}
+
+.cta-left-background {
+  top: 0;
+  left: 0;
+}
+
+.cta-right-background {
+  bottom: 0;
+  right: 0;
+}
+
+.cta-section > .cta-section-inner-wrapper > h2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  margin: 0 0 35px 0;
+}
+
+.cta-section > .cta-section-inner-wrapper > button {
+  font-size: 16px;
+  padding: 18px 56px;
+  background-color: #005AE2;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+
+                                              /* Footer Section */
+
+footer {
+  padding-bottom: 39px;
+  position: relative;
+}
+
+.footer-left-bg,
+.footer-right-bg {
+  position: absolute;
+  display: inline-block;
+}
+
+.footer-left-bg {
+  bottom: 0;
+  left: 0;
+}
+
+.footer-right-bg {
+  bottom: 0;
+  right: 0;
+}
+
+.all-footer-content-wrapper {
+  padding: 95px 202px 0 202px ;
+}
+
+.icons-and-why-choose-scissors {
+  display: flex;
+}
+
+.brand-logo-and-social-links {
+  height: 96px;
+  width: 184px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 39px;
+}
+
+.brand-logo-and-social-links > ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.footer-why-scissor-wrapper {
+  height: 384px;
+  width: 812px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer-why-scissor-wrapper > div > h3 {
+  margin-top: 0;
+}
+
+.terms-and-condition > p {
+  margin: 23px 127px 0 auto;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  width: 296px;
+
+}
+
+.terms-and-condition > p > span {
+  margin-left: 8px;
+  margin-right: 8px;
 }
