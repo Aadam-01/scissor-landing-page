@@ -147,12 +147,15 @@ body {
 
 .features-nav {
   display: flex;
-  align-items: flex-end;
-  gap: 3px;
+  align-items: baseline;
+  
 }
 
 .features-nav img {
-  width: 20px;
+ width: 12px;
+ margin-left: 10px;
+ position: relative;
+ top: -2px;
 }
 
 
